@@ -1,3 +1,4 @@
+from random import choice
 import collections
 
 Card = collections.namedtuple('Card', ['rank', 'suit'])
@@ -22,3 +23,4 @@ if __name__ == "__main__":
     print(beer_card)
     deck = FrenchDeck()
     print(len(deck), deck.suits, deck.ranks)
+    print(choice(deck))
