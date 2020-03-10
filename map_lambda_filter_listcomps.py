@@ -27,4 +27,3 @@ if __name__ == '__main__':
     symbols = '$¢£¥€¤'
     beyond_ascii = list(filter(lambda c: c > 127, map(ord, symbols)))
     print(beyond_ascii)
-
